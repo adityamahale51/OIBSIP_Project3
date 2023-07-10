@@ -1,0 +1,42 @@
+
+ input[type="text"] {
+ display: block;
+ margin-bottom: 10px;
+ }
+ input[type="number"] {
+ display: block;
+ margin-bottom: 10px;
+ }
+ .container {
+ max-width: 100%;
+ height: 100vh;
+ background-image:linear-gradient(rgba(10, 244, 115, 0.693), rgba(252, 10, 135, 0.785));
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border: solid;
+  }
+ .converter-row{
+ width: 200px;
+ align-items: center;
+ background-color: blue;
+ border-radius: 10px;
+ padding: 30px 60px;
+ border: solid;
+ }
+ .abc {
+  margin-bottom: 15px;
+ }
+ label {
+ font-size: 20px;
+ font-weight: 500;
+ margin-bottom: 150px;
+ color: black;
+ }
+ input {
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+ }
